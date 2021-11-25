@@ -1,0 +1,38 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    missing_required_param: error
+    missing_return: error
+    todo: ignore
+  language:
+    strict-inference: true
+    strict-raw-types: true
+linter:
+  rules:
+    prefer_single_quotes: true 
+    avoid_empty_else: true
+    avoid_unnecessary_containers: true
+    avoid_unused_constructor_parameters: true
+    curly_braces_in_flow_control_structures: true
+    empty_catches: true
+    eol_at_end_of_file: true
+    file_names: true
+    use_full_hex_values_for_flutter_colors: true
+    prefer_expression_function_bodies: true
+    avoid_void_async: true
+    unnecessary_await_in_return: true
+    unnecessary_brace_in_string_interps: true
+    unnecessary_const: true
+    unnecessary_getters_setters: true
+    unnecessary_lambdas: true
+    unnecessary_new: true
+    unnecessary_null_aware_assignments: true
+    unnecessary_null_in_if_null_operators: true
+    unnecessary_overrides: true
+    unnecessary_parenthesis: true
+    unnecessary_raw_strings: true
+    unnecessary_statements: true
+    unnecessary_string_escapes: true
+    unnecessary_string_interpolations: true
+    unnecessary_this: true
